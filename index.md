@@ -20,7 +20,24 @@ Hey! I'm Thomas. I work as a technician at [Banshee Reeks Nature Preserve](https
 
 ## Projects
 
+### Habitat suitability of American Ginseng (*Panax quinquefolius*) under climate change
 
+#### American Ginseng (*Panax quinquefolius*)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Panax_quinquefolius.jpg/960px-Panax_quinquefolius.jpg?20060208013541" alt="Panax quinquefolius - US FWS photo" style="width:600px;"/>
+
+American ginseng is a perennial herb native to eastern forests of the United States, from Maine to Alabama and west to Michigan, Wisconsin and Minnesota [(Harrison et al.)](https://corn.aae.wisc.edu/Crops/Ginseng.aspx). The plant grows to two feet in height, has palmately compound leaves made up of five serrated leaflets arranged in a single whorl. It blooms as one greenish-white flower umbel per stem that turn to bright red drupes in the fall.
+
+The root of American Ginseng is where its value to humans lies. Indiginous Americans had a variety of uses for the root; from herbal remedies to good luck charms. In the modern day, it has a high demand in the United States and China as an herbal remedy [(Anderson & Peterson, 2003)](https://plants.usda.gov/DocumentLibrary/plantguide/pdf/cs_paqu.pdf). Overharvesting lead to the plant being listed in Appendix II of the [Convention on International Trade in Endangered Species (CITES)](https://cites.org/eng/app/appendices.php) in the 1970s. Because a permit is not required to export artificially propagated ginseng, agricultural researchers have looked to determine the conditions necessary for growth of the plant.
+
+American ginseng grows best in climates with an average of 50 degrees Fahrenheit and between 40 to 50 in. of annual precipitation. It preferes well-drained, loamy soils at least 12 in. deep with a pH near 5.5 [(Harrison et al.)](https://corn.aae.wisc.edu/Crops/Ginseng.aspx). Ginseng favors north or east facing slopes that are not too steep to maintain deep topsoil [(Vaughan et al., 2011)](https://www.fs.usda.gov/nac/assets/documents/research/publications/2011ginsengforest.pdf).
+
+![*Panax quinquefolius* suitable habitat at Shawnee National Forest under warm and dry climate conditions in the mid-century](img/ShawneeWD2036.png)
+![*Panax quinquefolius* suitable habitat at Shawnee National Forest under warm and dry climate conditions in the late-century](img/ShawneeWD2066.png)
+
+An example of how American Ginseng may shift is seen at Shawnee National Forest. Under warm and dry climate conditions, the most suitable habitat shifts from the eastern portion of the forest over to the western portion.
+
+[See the full project here](https://github.com/earthlab-education/habitat-suitability-tjstogoski/blob/main/climate.ipynb)
 
 ---
 
