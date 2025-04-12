@@ -16,7 +16,56 @@ Hey! I'm Thomas. I work as a technician at [Banshee Reeks Nature Preserve](https
 * **Coastal Carolina University**
   * *Coursework in Ecology, Genetics, Chemistry, Physics, Marine Science, and Geology*
 
+---
+
 ## Projects
+
+
+
+---
+
+### Land Cover Classification in the Mississippi River Delta
+
+This notebook uses a k-means **unsupervised** clustering
+algorithm to group pixels by similar spectral signatures. **k-means** is
+an **exploratory** method for finding patterns in data. Because it is
+unsupervised, no training data is needed for the model. You also
+can’t measure how well it “performs” because the clusters will not
+correspond to any particular land cover class. However, we expect at
+least some of the clusters to be identifiable as different types of land
+cover.
+
+We use the [harmonized Sentinal/Landsat multispectral
+dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf).
+The data is accessible with an [Earthdata
+account](https://www.earthdata.nasa.gov/learn/get-started) and the
+[`earthaccess` library from
+NSIDC](https://github.com/nsidc/earthaccess):
+
+![Louisiana Delta Watershed 080902030506](img/watershed_map.html)
+
+**The Mississippi River Delta**
+
+This watershed nestled between the Mississippi River to the West and the small town of Delacroix, Louisiana to the East, near the confluence of the Mississippi River and the Gulf of Mexico. To the Northeast lies Lake Lery, and Grank Lake and Petit Lake to the Southeast. It is a part of a large expanse of coastal wetlands making up 37% of the estuarine herbaceous marshes in the contiguous United States.
+
+Reference:
+
+[Couvillion, B.R., Barras, J.A., Steyer, G.D., Sleavin, William, Fischer, Michelle, Beck, Holly, Trahan, Nadine, Griffin, Brad, and Heckman, David, 2011, Land area change in coastal Louisiana from 1932 to 2010: U.S. Geological Survey Scientific Investigations Map 3164, scale 1:265,000, 12 p. pamphlet.](https://pubs.usgs.gov/sim/3164/)
+
+![Land Cover Classification Results](img/delta_plot.html)
+
+**LAND COVER CLASSIFICATION REFLECTS PHYSIOGRAPHIC FEATURES**
+
+While the categories of the K-Means classification are not explicitly stated, inferences can be made based on satellite imagery in the visible spectrum. In this instance, possible categories include:
+
+0. (Blue) Deep water bodies, including Lake Lerry to the Northeast, and Grand Lake and Petit Lake to the Southeast.
+1. (Yellow) Vegetation, especially the the wide expanses of *Spartina* throughout the delta.
+2. (Red) Shallow water bodies, such as the canals that run through the delta, appearing as smooth continuous lines in the figure.
+3. (Black) Exposed sediments, such as sandbars or man-made hardscaping. I figured this one out by looking at Google maps streetview of the town of Delacroix, LA, which is just barely seen on the eastern edge of the RGB figure as a white bend. This category may also include the vegetated areas able to support woody growth.
+
+[See the full project here](posts/02-climate/clustering.html)
+
+---
 
 ### Habitat Suitability of *Tsuga canadensis* (L.) Eastern Hemlock
 
@@ -44,12 +93,15 @@ Unfortunately, an error occurred during the processing of the raster layers for 
 
 <a href="https://github.com/tjstogoski/Habitat-Suitability" target="_blank">See the full project here</a>
 
+---
  
 ### [50 Years of Temperature Data Show Rising Temperatures at Back Bay National Wildlife Refuge, VA](posts/02-climate/Back_Bay_NWR_climate_analysis.html)
 ![Back Bay Climate Plot](img/back_bay_NWF_climate_plot.jpg)
 
 From 1954 to 2006, Back Bay NWR has warmed an average of 0.087&deg;C per year. At 0.87&deg;C per decade, this rate of warming is over four times that of the <a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature" target="_blank">global rate of warming from 1982 to 2023 as calculated by NOAA (0.20&deg;C per decade)</a>. It was interesting to note the period of cooler temperatures observed starting in 1982, which coincided with a <a href="https://psl.noaa.gov/enso/climaterisks/years/top24enso.html" targe="_blank">strong El Nino event</a>. Looking into this also lead me to learn about the <a hre="https://volcano.oregonstate.edu/el-chichon-mexico-1982" target="_blank">El Chichon volcanic eruption of 1982</a>, which also likely contributed to cooler temperatures, as the aerosol sulfur dioxide emitted from the eruption reflects solar radiation.
 [See the full post here](posts/02-climate/Back_Bay_NWR_climate_analysis.html)
+
+---
 
 ### Map of Banshee Reeks Nature Preserve
 
