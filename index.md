@@ -12,9 +12,9 @@ Hey! I'm Thomas. I work as a technician at [Banshee Reeks Nature Preserve](https
 ## Educational Background
 * **Virginia Commonwealth University** - Bachelor of Music in Music Performance
 * **Northern Virginia Community College**
-  * *Additional coursework in Biology, Statistics, and Communications*
+  * *Coursework in Biology, Statistics, and Communications*
 * **Coastal Carolina University**
-  * *Additional coursework in Ecology, Genetics, Chemistry, Physics, Marine Science, and Geology*
+  * *Coursework in Ecology, Genetics, Chemistry, Physics, Marine Science, and Geology*
 
 ## Projects
 
